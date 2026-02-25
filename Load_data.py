@@ -20,15 +20,4 @@ def load_data(file_path):
         print(f"An error occurred while loading data: {e}")
         return None
     
-def one_in_k_encoding(vec, k):
-    """ One-in-k encoding of vector to k classes 
-    
-    Args:
-       vec: numpy array - data to encode
-       k: int - number of classes to encode to (0,...,k-1)
-    """
-    n = vec.shape[0]
-    enc = np.zeros((n, k))
-    enc[np.arange(n), vec] = 1
-    return enc
       
