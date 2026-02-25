@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def load_data(file_path):
     """
-    Load data from a CSV file.
+    Load data from a CSV file.git add
 
     Parameters:
     file_path (str): The path to the CSV file.
